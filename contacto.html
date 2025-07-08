@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+     <!-- Enlace para usar íconos de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+      <!-- Encabezado -->
+  <header class="header">
+    <div class="contenedor">
+      <img src="imagenes/logo.png" alt="Logo Ciudadanía Digital" class="logo">
+      <nav class="nav">
+        <ul>
+            <li><a href= "index.html">Inicio</a></li>
+            <li><a href= "modulos.html">Módulos</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+ <section class="contacto">
+  <h1>Contáctanos y realizá tu consulta</h1>
+  <p>¿Cuál es tu consulta? Usá este formulario para dejar tu inquietud. ¡Queremos conocerte!</p>
+
+  <div class="formulario-container">
+    <form action="#" method="post">
+      <span class="obligatorio">* Datos requeridos</span>
+      <ul>
+        <li>
+          <label for="name">Nombre:</label>
+          <input type="text" placeholder="Nombre y apellidos" required />
+          <span class="obligatorio">*</span>
+        </li>
+        <li>
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" name="email" placeholder="info@nombredelsitio.com" required />
+          <span class="obligatorio">*</span>
+        </li>
+        <li>
+          <label for="message">Tu mensaje:</label>
+          <textarea name="message" cols="40" rows="6" required></textarea>
+          <span class="obligatorio">*</span>
+        </li>
+        <li>
+          <button class="submit" type="submit">Enviar</button>
+        </li>
+      </ul>
+    </form>
+  </div>
+</section>
+
+<!-- Sección de redes sociales -->
+<section class="redes-sociales">
+      <div class="formulario-container">
+        <h2>Seguinos en redes</h2>
+        <div class="iconos-redes">
+          <a href="https://instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+            <span>Facebook</span>
+          </a>
+          <a href="mailto:info@nombredelsitio.com">
+            <i class="fas fa-envelope"></i>
+            <span>Correo electrónico</span>
+          </a>
+        </div>
+      </div>
+    </section>
+<!-- Pie de página -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Ciudadanía Digital. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
